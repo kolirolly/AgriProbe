@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/forest1">
+
+    <TextView
+        android:id="@+id/manual5"
+        android:layout_width="313dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="168dp"
+        android:background="@drawable/glass_morph"
+        android:gravity="left"
+        android:text="- It promotes efficient water usage and enhances plant health."
+        android:textColor="#0E0E0E"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/manual1" />
+
+    <TextView
+        android:id="@+id/manual4"
+        android:layout_width="313dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="112dp"
+        android:background="@drawable/glass_morph"
+        android:textColor="#1B1A1A"
+        android:gravity="left"
+        android:text="- This intelligent control mechanism optimizes irrigation by responding dynamically to soil moisture conditions."
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/manual1" />
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="181dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="170dp"
+        android:layout_marginEnd="160dp"
+        android:layout_marginBottom="112dp"
+        android:background="@drawable/round_bordar"
+        android:text="soil health status"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.573"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:textSize="16sp" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="304dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="19dp"
+        android:background="@drawable/round_bordar"
+        android:text="logout"
+        android:textColor="@color/bottomNavigationBackground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.111"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="82dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="648dp"
+        android:gravity="left"
+        android:text="Plant dreams, pull weeds, and grow a happy life."
+        android:textSize="18sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.36"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logout"
+        app:layout_constraintVertical_bias="0.454"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/manual"
+        android:layout_width="349dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="17dp"
+        android:background="@drawable/buttonshapewhitebg"
+        android:text="instructions"
+        android:textAllCaps="false"
+        android:textColor="#3F51B5"
+        app:layout_constraintBottom_toTopOf="@+id/manual1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/manual1"
+        android:layout_width="313dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/glass_morph"
+        android:gravity="left"
+        android:text="- AgriProbe manages water pump operations based on soil moisture levels."
+        android:textColor="#1B1A1A"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:layout_marginBottom="40dp"
+        android:autoText="false"
+        android:text="click to fetch data"
+        android:textColor="#F3EFEF"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/start"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/manual2"
+        android:layout_width="313dp"
+        android:layout_height="57dp"
+        android:background="@drawable/glass_morph"
+        android:textColor="#1B1A1A"
+        android:gravity="left"
+        android:textStyle="bold"
+        android:text="- user must activate the pump when moisture falls below a set threshold (default: 25) to ensure soil irrigation."
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/manual1" />
+
+    <TextView
+        android:id="@+id/manual3"
+        android:layout_width="313dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="56dp"
+        android:background="@drawable/glass_morph"
+        android:textColor="#1B1A1A"
+        android:gravity="left"
+        android:textStyle="bold"
+        android:text="- Conversely, should also deactivate the pump when moisture exceeds another threshold (default: 75) to prevent overwatering."
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/manual1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
